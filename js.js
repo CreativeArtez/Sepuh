@@ -22,6 +22,7 @@ jQuery(document).ready(function( $ ) {
       delay: 20,
       time: 2000
   });
+});
 
   const preloader = gsap.timeline();
   
@@ -36,7 +37,6 @@ jQuery(document).ready(function( $ ) {
     transformOrigin:'bottom',
     display:'none'
   })
-});
 gsap.to('.gsap', {
   y: -400,
 
