@@ -1,0 +1,461 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.marq{
+    width: 100%;
+    height: auto;
+    background-color: #1f1f1f;
+    overflow: hidden;
+    display: flex;
+}
+marquee{
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.bing{
+
+    margin: auto;
+    font-family: 'Vina Sans', sans-serif;
+    font-size: 6em;
+    color: white;
+}
+.kotak{
+    background-color: rgb(66, 66, 66);
+    padding:0 10px;
+    color: gold;
+}
+.img-marq{
+    width: 15vh;
+    height: 15vh;
+}
+.preloader{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 102;
+    background-color: #1f1f1f;
+    display: flex;
+}
+.counter-two{
+    font-family: 'Vina Sans', sans-serif;
+    margin: auto;
+    position: absolute;
+    font-size: 6em;
+    letter-spacing: 2px;
+    z-index: 200;
+    color: greenyellow;
+    bottom: 10px;
+    right: 10px;
+}
+.co{
+    font-family: 'syne',sans-serif;
+     width: 100%;
+     height: 100vh;
+     position: relative;
+     display: flex;
+}
+.yuta{
+    margin: auto;
+    width: 50vh;
+    height: 50vh;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid black;
+}
+.gsap{
+    transform: scale(1,1.3);
+    font-weight: 600;
+    left: 17%;
+    bottom: 27%;
+    font-size: 3em;
+    color: black;
+    position: absolute;
+
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.bg-color{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: rgb(82, 249, 127);
+}
+.kelas-desc{
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.text-gsap{
+    width: max-content;
+    height: min-content;
+    margin: auto;
+    display: block;
+}  
+.animtext{
+    margin: auto;
+    text-align: center;
+}
+.text{
+    font-weight: 100;
+    margin: auto;
+    text-align: center;
+    font-size: 2.6em;
+    opacity: 1;
+    display: inline-block;
+    margin-left: 0.5em;
+}
+.smile{
+    position: relative;
+    transform: translateY(2px);
+    width: 0.78em;
+    height: 0.78em;
+}
+
+.kelas-def{
+   font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    border-bottom:1px solid rgb(25, 25, 25) ;
+}
+.text-reveal{
+    margin: auto;
+    width: 70%;
+    height: max-content;
+    font-size: 2em;
+}
+
+.line{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+.lines{
+    margin: auto;
+    width: 0.2em;
+    height: 100%;
+    background-color:rgb(25, 25, 25);
+}
+.wrapper {
+     font-family: 'Press Start 2P';
+     overflow-x: hidden;
+     position: relative;    
+ }
+ .container {
+     display: flex;
+     width: 300vw;
+     .col {
+         display: flex;
+         gap: 3em;
+     }
+     section {
+         height: 100vh;
+         width: 100vw;
+     }
+ }
+ .jurusan{
+     width: 100vw;
+     height: 100vh;
+    background-color: rgb(202, 202, 202);
+     display: flex;
+ }
+ .jur{
+     position: relative;
+     margin: auto;
+     width: 80%;
+     height: 80%;
+ }
+ .jur h1{
+     color: rgb(39, 39, 39);
+ }
+ .singkatan{
+     font-size: 5em;
+ }
+ .pariwisata{
+     font-size: 4em;
+ }
+ .busana{
+     font-size: 3.5em;
+ }
+ .non-s{
+     margin-left: 2%;
+     font-size: 0.7em;
+ }
+ .start{
+     background-color: rgb(38, 38, 38);
+ }
+ .isi{
+     font-size: 5em;
+     text-align: center;
+     width: auto;
+     height: auto;
+     margin: auto;
+     color: white;
+ }
+ .all{
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+     height: 70%;
+     display: flex;
+ }
+ .bar1,.bar2{
+     display: flex;
+     width: 50%;
+     height: 100%;
+ }
+ .bar{
+     border: 1px solid rgb(78, 78, 78);
+     margin: auto;
+     width: 80%;
+     height: 80%;
+ }
+ .biodata{
+     background-color:  rgb(38, 38, 38);
+     margin: auto;
+     width: 80% ;
+     height: 80%;
+ }
+ .biodata h1{
+     font-size: 1em;
+     color: hsl(0, 0%, 100%);
+     margin: 10px 10px;
+     line-height: 30px;
+ }
+ .reveal-j{
+     display: inline-block;
+     overflow: hidden;
+     margin-bottom: 5px;
+ }
+ .span{
+     display: inline-block;
+     overflow: hidden;
+ }
+ .kesimpulan{
+    overflow: hidden;
+     width: 100%;
+     height: 100vh;
+     background-color: rgb(202, 202, 202);
+     display: flex;
+     position: relative;
+ }
+ .bg-bang{
+     width: 100%;
+     height: 100%;
+     background-color: rgb(36, 36, 36);
+     position: absolute;
+ }
+
+ .simle{
+     font-family: 'Caveat', cursive;
+     z-index: 1;
+     width: 70%;
+     height: 30%;
+     font-size: 2em;
+     color: rgb(79, 244, 109);
+     margin: auto;
+ }
+ .char{
+     display: inline-block;
+ }
+ .ulangi{
+    position: relative;
+    color: white;
+    font-family: 'Press Start 2P';
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(36, 36, 36);
+    display: flex;
+ }
+.textt{
+    margin: auto;
+    width: 50%;
+    height: 70%;
+}
+.textt h1{
+    width: 100%;
+    height: 50%;
+    font-size: 4em;
+}
+.mini{
+    font-size: 0.5em;
+}
+a{  
+    padding: 15px 15px;
+    background-color: white;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+.cp{
+    font-size: 1em;
+    color: aliceblue;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+}
+@media screen and (max-width:425px){
+    .gsap{
+        font-size: 1em;
+    }
+    .text{
+        font-size: 1.8em;
+    }
+    .teks{
+        display: flex;
+    }
+    .span{
+        font-size: 0.7em;
+    }
+    .text-reveal{
+        margin: auto;
+        width: 80%;
+        height: max-content;
+        font-size: 1.7em;
+    }
+    h2{ 
+        font-size: 3em;
+        color: white;
+        margin: 0;    
+    }
+    .counter{
+        font-size: 2em;
+    }
+    .isi{
+        font-size: 1.5em;
+    }
+    .jurusan{
+        width: 100vw;
+        height: 100vh;
+       background-color: rgb(202, 202, 202);
+        display: flex;
+    }
+    .jur{
+        object-fit: cover;
+        margin: auto;
+        width: 95%;
+        height: 95%;
+    }
+    .jur h1{
+        margin-left: 10%;
+        margin-top: 20%;
+        color: rgb(39, 39, 39);
+    }
+    .singkatan{
+        font-size: 1.5em;
+    }
+    .non-s{
+        font-size: 0.5em;
+    }
+    .start{
+        background-color: rgb(38, 38, 38);
+    }
+    
+    .all{
+        width: 100%;
+        height: 70%;
+        display: block;
+    }
+    .bar1,.bar2{
+        display: flex;
+        width: 100%;
+        height: 50%;
+    }
+    
+    
+    .-j{
+        font-size: 3em;
+    }
+    .textt h1{
+        font-size: 2em;
+    }
+
+    .yuta{
+        width: 23vh;
+        height: 23vh;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 1px solid black;
+    }
+    .gsap{
+        transform: scale(1,1.6);
+        left: 9%;
+        bottom: 34%;
+        font-size: 1em;   
+    }
+    .text{
+        font-size: 1.5em;
+    }
+    .text-reveal{
+        width: 80%;
+        font-size: 1.4em;
+    }
+    
+    .all{
+        width: 100%;
+        height: 70%;
+        display: block;
+    }
+    .bar1,.bar2{
+        display: flex;
+        width: 100%;
+        height: 50%;
+    }
+    
+    .biodata h1{
+        color: white;
+        margin: 10px 10px;
+        line-height: 13px;
+        font-size: 0.7em;
+    }
+    .textt{
+        width: 90%;
+        height: 40%;
+    }
+    .cp{
+        font-size: 0.7em;
+    }
+    .simle{
+        padding-top: 100px;
+        font-family: 'Caveat', cursive;
+        z-index: 1;
+        width: 80%;
+        height: 90%;
+        font-size: 1.5em;
+        color: rgb(79, 244, 109);
+        margin: auto;
+        font-weight: 100;
+    }
+}
+
+
+
+.char{
+     display: inline-block;
+}
+.title{
+     margin: 0;
+     font-size: 4rem;
+     text-align: center;
+     color: rgb(255, 255, 255);
+     text-transform: uppercase;
+     mix-blend-mode: difference;
+}
