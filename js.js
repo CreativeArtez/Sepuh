@@ -31,6 +31,7 @@ jQuery(document).ready(function( $ ) {
     display: 'none'
   })
   preloader.to('.preloader', {
+    display:'none',
     delay: '0.5',
     scaleY:0,
     transformOrigin:'bottom',
