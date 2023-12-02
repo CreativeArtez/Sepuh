@@ -444,6 +444,11 @@ a{
         margin: auto;
         font-weight: 100;
     }
+    .counter-two{
+  
+    bottom: 30px;
+    right: 10px;
+}
 }
 
 
